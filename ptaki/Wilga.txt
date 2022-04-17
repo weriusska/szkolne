@@ -1,0 +1,135 @@
+
+
+<!doctypehtml> 
+<html>
+<head>
+<title> Wilga </title>
+<meta charset="UTF-8" />
+<meta name="author" content="Weronika Michalska" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Murecho&display=swap" rel="stylesheet">
+
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4D1E04;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #F0D67F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #773903;
+}
+
+h1 {
+   padding-left: 30px;
+   font-family: 'Murecho', sans-serif;
+   color: #F0D67F;
+   font-size: 60px;
+   background-color: #4D1E04;
+}
+
+h7 {
+   font-family: 'Murecho', sans-serif;
+   color: #4D1E04;
+   font-size: 30px;
+}
+
+p {
+  font-family: 'Merriweather Sans', sans-serif;  
+  color: #F0D67F;
+  background-color: #4D1E04;
+  width: 800px;
+}
+
+figure {
+  padding-left: 70px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: #4D1E04 ;
+  color: #F0D67F ;
+  font-family: 'Merriweather Sans', sans-serif; 
+  width : 500px;
+  text-align: center;
+  float: initial;
+}
+.a1{
+float: left;
+}
+
+.a2{
+float: right;
+padding-right: 70px;
+padding-top: 0px;
+}
+
+body {
+    background-color: #F0D67F;
+}
+
+img {
+float: left;
+padding-right: 100 px;
+}
+audio {
+    width: 800px;
+    height: 50px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+<h1> Wilga </h1>
+
+<div class="a1">
+    <figure>
+      <img src="wilga.jpg" alt="wilga"/>
+      <figcaption> wilga.2 </figcaption>
+    </figure>
+</div>
+<div class="a2">
+<h7> Informacje o: </h7>
+<br>
+    <p> Wilga to ptak o pięknej barwie ciała. Intensywność koloru zależy przede wszystkim od płci oraz wieku. Samiec ma upierzenie koloru jaskrawożółtego, przy oczach posiada czarny pasek, czarne są także jego skrzydła, na których widoczne są żółte plamki. Samica nie ma czarnego paska przy oczach, jej podbródek jest biały, a na spodzie ciała zaznaczają się ciemne kreski,dziób dorosłej samicy wilgi ma kolor ciemno różowy. Jej skrzydła są ciemnobrunatne. W ogólnym wrażeniu, upierzenie samicy wydaje się posiadać bardziej zielonkawy odcień. Jeszcze mocniej odcień ten wyraźny jest u osobnika młodego, którego dziób jest ciemnobrązowy. Tęczówka oka jest ciemnoczerwona. Masa ciała wilgi wynosi 51-90 g, długość jego ciała 22-25 cm, zaś rozpiętość skrzydeł waha się od 44 do 45 cm.</p>
+
+<br> 
+<h7> Posłuchaj :) </h7>
+<br>
+<audio controls>
+  <source src="wilga.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<br> <br>
+<ul>
+<li> <a href="atlas.html">Powrót do strony głównej</a></li>
+<ul>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(202, 150, 92);
+}
+
+li {
+ font-family: 'Fauna One', serif;
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color:rgb(135, 100, 69);
+}
+
+h1 {
+   padding-left: 30px;
+   color:  rgb(135, 100, 69);
+   font-size: 60px;
+   text-shadow: 2px 2px 5px rgb(244, 223, 186);
+   font-family: Cinzel, serif;
+}
+
+body {
+	background-color: rgb(238, 195, 115);
+}
