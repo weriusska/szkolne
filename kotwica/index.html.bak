@@ -1,0 +1,58 @@
+
+<!DOCTYPE HTML>
+<html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&family=Ms+Madi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+	<head>
+		<title>Definiowanie kotwicy w konkretnym miescu strony</title>
+		<meta name charset="UTF-8"/>
+		<meta name="keywords" content="HTML5, kotwica, odsyłacz, link, hiperłącze"/>
+		<meta name="description" content="Przykład definiowania kotwicy w konkretnym miejscu strony"/>
+		<meta name="author" content="Weronika Michalska";
+		<meta name="robots" content="all"/>
+	</head>
+	
+	<body>
+		<h1>Jak definiujemy kotwice na stronie</h1>
+		<section>
+			<h2 id="a_top">Tutaj zdefiniowaliśmy kotwice o nazwie <i>a_top</i></h2>
+			<ul>
+				<li><a href="#a_bottom">To jest link do kotwicy dolnej</a></li>
+				<figure>
+					<img src="kotwica1.png">
+					<figcaption>
+					Rysunek 1. Kotwica czerwona
+					</figcaption>
+				</figure>
+			</ul>
+		</section>
+		<section>
+		<br/><br/><br/>
+			<h3>
+				Zdefiniowanie kotwicy w konkretnym miejscu dokumentu HTML<br />
+				i wskazanie tej kotwicy w linku do tego dokumentu,<br />
+				spowoduje po jego otwarciu, przewinięcie -<br />
+				tak aby wiersz zawierający kotwicę znajdował się jak najbliżej górnej krawędzi okna przeglądarki.<br />
+				Aby było co przewijać dodamy dwa rysunki kotwic oraz linie puste,<br />
+				a następonie, zdefiniujemy dwie kotwice.
+				<br /><br /><br />
+			</h3>
+		</section>
+		<section>
+			<a name="a_bottom"></a>
+			<h2>Tutaj zdefiniowaliśmy kotiwce o nazwie <i> a_bottom </i> </h2>
+			<ul>
+				<li><a href="#a_top">To jest link do kotiwcy górnej</a></li>
+				<figure>
+					<img src="kotwica1.png">
+					<figcaption>
+					Rysunek 2. Kotwica szara
+					</figcaption>
+				</figure>
+			</ul>
+		</section>
+	</body>
+</html>

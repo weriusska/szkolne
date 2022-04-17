@@ -1,0 +1,64 @@
+body {
+	background-image: linear-gradient(to left bottom, #89043d, #aa3143, #c75449, #e17851, #f79d5c);
+	background-size: 400%;
+	animation: animacja 5s infinite alternate;
+}
+
+@keyframes animacja {
+	0% {
+		background-position: left;
+	}
+	
+	100% {
+		background-position: right;
+	}
+}
+
+h1 {
+	color: #F2F7F2;
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+h2 {
+	color: #D9E8D9;
+	font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
+	color: #F2F7F2;
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+ul {
+	background-color: #F79D5C;
+	list-style-type: none;
+	margin: 0px;
+	padding: 1%;
+	overflow: hidden;
+}
+
+
+li a {
+	display: block;
+	color: #F01932;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: 'Bebas Neue', cursive;
+}
+
+li a:hover {
+  background-color: #FAC49E;
+}
+
+
+
+img {
+	height: 200px;
+	width: 300px:
+
+
+}
+
