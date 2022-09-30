@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+ 
+		<meta name="author" content="Weronika Michalska">
+		<meta charset="UTF-8" />
+
+	
+		<link rel="stylesheet" href="styl.css">
+	
+		<TITLE> CSS </TITLE>
+	</head>
+
+
+	<body>
+    <h1>Zastosowanie stylów</h1>
+
+		<div id="jedn">
+		DROGA POŻAROWA <br>
+		NIE ZASTAWIAĆ
+		</div>
+		<div id="dwa"></div>
+
+		<a href="/szkolne/index.html">Powrót do strony głównej</a> 
+	</body>
+</html>
