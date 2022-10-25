@@ -26,3 +26,8 @@ footer{
 	text-align: center;
 	clear: both;
 	}
+
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+}
