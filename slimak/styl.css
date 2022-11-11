@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+}
+
+.naglowek{
+    font-size: 20px;
+    background-color: #90BE6D;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #FFFBFF;
+}
+
+.menu{
+    height: 550px;
+    width: 35%;
+    background-color: #A4A8B6;
+    float: left;
+}
+
+.zdjecie{
+    height: 550px;
+    width: 65%;
+    float: left;
+    background-color:#FFFBFF ;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 50%;
+    margin: 25% 0 25% 0;
+}
+
+
+
+.stopka{
+    height: 60px;
+    width: 100%;
+    background-color: #44633F;
+    color: #FFFBFF;
+    text-align: right;
+    line-height: 60px;
+    float: left;
+}
+
+p{
+    margin-right: 10px;
+}
+
+ul{
+    font-size: large;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a{
+    color: #362417;
+}
+
+
+.przycisk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px outset #362417;
+    background-color: #FFFBFF;
+    height: 10%;
+    margin: 15% 15% 0 15%
+}
+
