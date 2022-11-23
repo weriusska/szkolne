@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+.naglowek{
+    background-color: #ed7d31;
+    height: 100px;
+    color: #fffc01;
+    text-align: center;
+    line-height: 100px;
+}
+
+nav{
+    background-color: #f4b183;
+    height: 50px;
+}
+
+div.button {
+    margin-left: 30px;
+	height: 29px;
+	width: max-content;
+	padding: 10px;
+	background-color: #fffc01;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+div.button_menu {
+	opacity: 0;
+	visibility: hidden;
+	width: max-content;
+	height: max-content;
+	position: absolute;
+	top: 24vh;
+	left: 10px;
+	z-index: 1;
+	border-radius: 7px;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid black;
+	background-color: white;
+	transition: 0.3s;
+}
+
+div.button:hover div.button_menu {
+	opacity: 100%;
+	visibility: visible;
+}
+div.button:hover::after div.button_menu {
+	opacity: 0%;
+}
+
+iframe {
+	background-color: white;
+}
+
+
+p.button {
+	font-size: 100%;
+	font-weight: bold;
+	color: black;
+}
+a{
+    color: white;
+}
+
+main{
+    height: 500px;
+}
+
+footer{
+    background-color: #f4b183;
+    height:50px;
+    text-align: right;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+
+
+
+img{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+p{
+    margin-right: 5%;
+}
