@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #420217;
+    color: #D6F599;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Bilbo', cursive;
+}
+
+td, th, table{
+    border: 2px solid #420217 ;
+    width: 50%;
+    margin: auto;
+    place-self: center;
+    cursor: crosshair;
+}
+
+.lewa{
+    background-color: #D6F599;
+    color: #420217;
+    height: 500px;
+    width: 25%;
+    float: left;
+    display: grid;   
+}
+
+.srodek{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: #E08D79;
+    display: grid;
+}
+
+img{
+    place-self: center;
+    cursor: pointer;
+}
+
+.prawa{
+    width: 25%;
+    height: 500px;
+    float:left ;
+    background-color: #D6F599;
+    display: grid;
+}
+
+p{
+    background-color: #E08D79;
+    color: #420217;
+    border: 2px solid #420217;
+    place-self: center;
+    width: 300px;
+    cursor: help;
+}
+
+footer{
+    background-color: #420217;
+    color: #D6F599;
+    text-align: right;
+    height: 100px;
+    float: left;
+    width: 100%;
+    line-height: 100px;
+}
+
+h2{
+    margin-right: 50px;
+}
+
