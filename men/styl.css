@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 10vh;
+}
+
+body{
+    background-color: #1f132c;
+}
+
+section{
+    width: 80vh;
+    height: 90vh;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 8%;
+    text-align: center;
+    border-radius: 30px;
+    float: left;
+}
+
+img{
+    width: 50%;
+    height: 40vh;
+}
+
+.woman{
+    background-color: #F354BE;
+}
+
+.man{
+    background-color: #0088BA;
+}
