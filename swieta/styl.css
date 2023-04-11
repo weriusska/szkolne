@@ -3,6 +3,10 @@
     color: #0C8346;
 }
 
+img{
+    width: 50vh;
+}
+
 body{
     font-family: 'Playfair Display', serif;
     background-color: #8FD5A6;
