@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dziedziczenie</title>
+    <link rel="stylesheet" href="styl.css">
+
+    <script>
+        function zielony(){
+            document.getElementById("ksztalt").style.backgroundColor = "green";
+        }
+        function niebieski(){
+            document.getElementById("ksztalt").style.backgroundColor = "blue";
+        }
+        function zolty(){
+            document.getElementById("ksztalt").style.backgroundColor = "yellow";
+        }
+        function czerwony(){
+            document.getElementById("ksztalt").style.backgroundColor = "red";
+        }
+    </script>
+</head>
+<body>
+    <ul>
+        <li><input type="button" value="zielony" onclick="zielony()"></li>
+        <li><input type="button" value="niebieski" onclick="niebieski()"></li>
+        <li><input type="button" value="czerwony" onclick="czerwony()"></li>
+        <li><input type="button" value="żółty" onclick="zolty()"></li>
+        <div id="ksztalt"></div>
+    </ul>
+    
+
+    
+    
+</body>
+</html>
