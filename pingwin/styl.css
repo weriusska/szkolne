@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+
+img {
+    display: inline-block;
+    position: relative;
+    left: 340px;
+}
+
+.nie {
+    position: fixed;
+    top: 390px;
+    left: 0px;
+}
