@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wszystkich Świętych czy Halloween</title>
+    <link rel="stylesheet" href="styl.css">
+    <script>
+        function H(){
+            document.getElementById("wynik").innerHTML ="Białe płachty, białe kości <br> Kły, kikuty, krosty, szramy <br> Hej wampiry, blade damy <br>W Halloween - dużo radości!"
+        }
+
+        function W(){
+            document.getElementById("wynik").innerHTML = "Dla tych <br> którzy odeszli w nieznany świat, <br> płomień na wietrze <br> kołysze wiatr.<br> <br> Dla nich tyle kwiatów <br> pod cmentarnym murem<br>i niebo jesienne <br>u góry <br> <br> Dla nich<br>harcerskie warty<br>i chorągiewek gromada, <br>i dla nich ten dzień<br>– pierwszy dzień listopada."
+        }
+    </script>
+</head>
+<body>
+    <h1>Co wybierasz? </h1>
+    <ul>
+        <li onclick="H()">Halloween</li>
+        <li onclick="W()">Wszystkich Świętych  </li>
+    </ul>
+    <p id="wynik"></p>
+    
+</body>
+</html>
