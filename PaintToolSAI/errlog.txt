@@ -1,0 +1,64 @@
+========================================================================
+Sai Version  = 1.2.5
+Win Version  = Windows 8 
+CPU No.00    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU No.01    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU No.02    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU No.03    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+OS Version   = 602
+WOW64        = Yes
+WinNT        = Yes
+Admin        = Yes
+Super        = Yes
+UAC          = 1
+VA Map Size  = 65536
+Page Size    = 4096
+Total Memory = 4095MB
+Total VAS    = 4095MB
+Avail VAS    = 2799MB
+
+TID Main     = 00001518
+TID Splash   = 00002378
+TID Except   = 00004F4C
+TID Setup    = 00003130
+TID Async    = 00000F34
+TID Thumb    = 00000000
+TID WinTab   = 000042BC
+
+TID SPad AWB = 00000000
+
+========================================================================
+
+--[2022-10-03 17:23:43] wintab.c(611): Error - WTOpen( 000C0818, &lc, 1 )
+========================================================================
+Sai Version  = 1.2.5
+Win Version  = Windows 8 
+CPU No.00    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU No.01    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU No.02    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU No.03    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+OS Version   = 602
+WOW64        = Yes
+WinNT        = Yes
+Admin        = Yes
+Super        = No
+UAC          = 2
+VA Map Size  = 65536
+Page Size    = 4096
+Total Memory = 4095MB
+Total VAS    = 4095MB
+Avail VAS    = 2803MB
+
+TID Main     = 00004734
+TID Splash   = 000033F0
+TID Except   = 00002514
+TID Setup    = 00000000
+TID Async    = 0000341C
+TID Thumb    = 00000000
+TID WinTab   = 00002B7C
+
+TID SPad AWB = 00000000
+
+========================================================================
+
+--[2022-10-03 17:34:26] wintab.c(611): Error - WTOpen( 00040914, &lc, 1 )

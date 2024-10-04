@@ -1,0 +1,17 @@
+Sai Version  = 1.2.5
+Win Version  = Windows 8 
+CPU No.00    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU No.01    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU No.02    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU No.03    = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+OS Version   = 602
+WOW64        = Yes
+WinNT        = Yes
+Admin        = Yes
+Super        = No
+UAC          = 2
+VA Map Size  = 65536
+Page Size    = 4096
+Total Memory = 4095MB
+Total VAS    = 4095MB
+Avail VAS    = 2892MB

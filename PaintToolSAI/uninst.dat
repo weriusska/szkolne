@@ -1,0 +1,17 @@
+0001	Uninstall
+0002	Quit
+
+1000	Uninstallation for PaintTool SAI Ver.1.2.2
+1001	This program deletes only file association and shortcuts. SAI program folder is not deleted.
+
+2000	Please finish PaintTool SAI.
+2001	Please run this uninstaller with administrator rights.
+2002	Uninstallation for PaintTool SAI
+2003	Notify changes to windows shell ...
+2004	Uninstallation finished.
+
+9999
+reg	HKEY_CLASSES_ROOT\.sai
+file	C:\Users\Public\Desktop\PaintTool SAI Ver.1.lnk
+file	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PaintTool SAI Ver.1.lnk
+reg	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\PaintToolSAI

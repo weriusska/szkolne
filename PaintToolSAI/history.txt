@@ -1,0 +1,264 @@
+
+                                                 - PaintTool SAI -
+------------------------------------------------------------------------------------------------------------------------
+- History -
+------------------------------------------------------------------------------------------------------------------------
+
+2016-04-25 Ver.1.2.5
+- Stable version release.
+[Fixed] Program crashes by resource leaks.
+
+2016-04-21 Ver.1.2.4
+- Stable version release.
+[Modified] Do not stop by an error about getting of WinTab version.
+
+2015-09-30 Ver.1.2.3
+[Fixed] Clipboard image by cut is not pasteable on other application.
+[Fixed] SAI cannot start if the system small icon is larger than 32x32.
+
+2015-06-17 Ver.1.2.2
+[Fixed] The maximum pressure of a pressure tool of linework layer is 100% not 200%.
+[Fixed] "Unprotected exception" occurs when start SAI with pen tablet operation.
+
+2015-06-10 Ver.1.2.1
+[Fixed] Access violation occurs when a zero length stroke was created by 'Pen' tool on linework layer.
+[Fixed] "Export as" always uses previous file type when the system file dialog is enabled.
+[Modified] Changed to use Unicode layer names on loading of PSD file.
+[Modified] Changed to ignore the file broken errors on loading of *.sai file.
+[Modified] Changed behivior for preservation of application settings on system shutdown.
+[Fixed] Pen tablet input sometimes malfunctions when using a device other than Wacom.
+...and some more fixes.
+
+2014-03-10 Ver.1.2.0
+- Stable version release.
+
+2013-10-10 Ver.1.2.0-Beta.6
+[Fixed] 'Name' input box of file viewer was hidden if the window is initial size.
+[Fixed] File viewer only updates one side thumnails when open same folder for open and save.
+[Fixed] The bugfix of tool shift on Ver.1.2.0-Beta.5 was incomplete.
+[Fixed] Merge Layers function caused access violation if number of layers is maximum(256).
+[Fixed] An incorrect gray scale JPEG file was loaded as broken.
+[Fixed] AG(Alpha + Gray scale) PNG file was loaded as broken.
+[Fixed] BITMAPV4HEADER option of BMP file generates incorrect header.
+
+2013-03-16 Ver.1.2.0-Beta.5
+[Modified] File viewer is modified.
+  + Can edit 'Location' if the location is file system path.
+  + A button to expand real folder path on folder tree added.
+  + 'File Type' is changing automatically when select 'Type filter'.
+[Fixed] Can not operate file pane of File viewer correctly by key board if 'Detail' mode is selected.
+[Modified] Option for how to get tablet area settings added. (misc.ini, For old Wacom driver bug on multi display environment.)
+[Fixed] Tool shift is ignored when key and stylus(left button of mouse) released at same time.
+[Fixed] First setup process failed if SAI is installed into virtual disk drive.
+...and some more fixes.
+
+2012-12-03 Ver.1.2.0-Beta.4
+*** We tested SAI on Windows 8. In conclusion, we decided that we do not recommend Windows 8. ***
+The drawing response of SAI is spoilt on DWM composition(Aero desktop and Windows 8 desktop)
+because paint or draw processing by desktop program is delayed about 30ms on DWM composition.
+On Windows Vista and 7, end users could avoid the delay through basic desktop and classic desktop.
+However, basic desktop and classic desktop is no longer supported on Windows 8.
+
+[Fixed] On multi monitor environment of Windows 8, maximized window hides taskbar on sub monitor.
+[Fixed] Tablet area settings was ignored. (Other of Wacom tablet)
+[Fixed] Drag and drop for '.jpeg' file was ignored.
+[Fixed] Opening operation for folder shortcut on file viewer was ignored.
+[Fixed] Windows XP/2000: Couldn't save file into top level of 'Network place'.
+...and some more fixes.
+
+2012-08-18 Ver.1.2.0-Beta.3
+[Fixed] Maximized window on multi monitor environment caused some problems.
+[Modified] On multi monitor environment, some dialog displayed to center of entire Desktop.
+[Fixed] SAI clashed when tablet driver was not installed.
+[Fixed] Resolution value of BMP and PNG was converted to floating point value. (e.g. 2834px/meter -> 71.98px/inch)
+
+2012-08-15 Ver.1.2.0-Beta.2
+[Fixed] Maximized window was placed on wrong position when Taskbar was placed on top or left side of Desktop.
+[Fixed] Conversion of color between VHSV/HSV and RGB got error.
+[Fixed] When start transformation by shortcut key, couldn't revert to previous mode when there is no image.
+[Fixed] Target path was rewritten when renamed bookmark item.
+[Fixed] Stylus couldn't make press while using shortcut key that was asigned to stylus side-switch.
+[Fixed] Direction of arrow mouse cursor on transformation guide was wrong.
+
+2012-08-12 Ver.1.2.0-Beta.1
+[Modified] File viewer is renewed.
+  + Windows 7 or later: Library is supported formally. (without Library management)
+  + Folder tree and bookmarks is integrated.
+  + Keyboard operation is implemented.
+  + Filename and extention box is splited.
+[Modified] File path expression is changed.
+  (e.g.1 'C:\Users\Foo\My Pictures\mypic.sai' -> 'Desktop / Foo / My Pictures / mypic.sai')
+  (e.g.2 'C:\myfolder\mypic.sai' -> 'Local Disk (C:) / myfolder / mypic.sai')
+[Modified] Windows 7 or later: Drop frames on basic/classic mode is improved.
+[Fixed] Maximized window on multi monitor environment caused some problems.
+[Fixed] Over 4GB history data caused access violation.
+[Modified] Memory usage indication is changed to easy expression.
+[Modified] sai.exe and sfl.dll is integrated.
+...and some more fixes.
+
+2011-09-12 Ver.1.2.0-Alpha.3
+[Modified] Windows 7 or later: Library is supported provisionally.
+[Fixed] A new tablet device instead of old one wasn't recognized.
+[Fixed] Mouse-mode for Princeton tablet wasn't worked.
+[Fixed] Stylus side-switch of Princeton tablet wasn't worked.
+[Fixed] Display of clipping child layer broke when invisible clipping parent layer was removed.
+[Fixed] Floating panels wasn't disabled while modal dialog is displaying.
+[Fixed] Couldn't drag file to any program from file viewer.
+[Fixed] Windows Vista or later: SAI disabled auto-hide taskbar when maximized.
+[Fixed] Custom critical section object malfunctioned on some Windows 9x computers.
+[Fixed] Change Resolution sometimes caused access violation.
+[Fixed] Failure of PNG file loading caused access violation.
+[Fixed] Zero-divider for resolution in Exif information caused zero-division.
+[Modified] Stability after memory starvation is improved.
+[Fixed] First setup process failed on some computers.
+[Modified] Location of preference file is changed to '%ALLUSERSPROFILE%\Application Data\SYSTEMAX\SAI'.
+[Modified] Detects FPU settings change that is caused by injected DLL.
+[Modified] Add title bar mode 'System default', 'Aero custom' and 'SAI'. (misc.ini)
+[Modified] Error log is improved.
+...and some more fixes.
+
+2008-12-25 Ver.1.1.0
+- Stable version release.
+
+2008-11-13 Ver.1.0.5g
+[Fixed] Hided Quick bar, but the space didn't hidden.
+[Fixed] The space for Quick-Bar didn't disappear when Quick Bar hided.
+
+2008-11-12 Ver.1.0.5f
+[Modified] Merge Visible Layers function insert merged layer before current layer.
+[Fixed] Scratch Pad image didn't save in floating mode.
+[Fixed] Starting SAI in hidden panels, current layer scrolled to upper side in layer list.
+[Modified] Cut down margines of canvas default position in view.
+[Fixed] Apply Layer Mask button was active when a line-work layer selected.
+
+2008-09-17 Ver.1.0.5e
+[Fixed] Showing dropdown list using tool-shift cancels tool-shift state.
+[Fixed] Reset floating panel/dialog position in right click menu on taskbar button didn't work.
+
+2008-09-16 Ver.1.0.5d
+[Fixed] Clicking Alt+Eye icon in layer set shown hidden child layers.
+[Fixed] In bucket tool, layer with preserve opacity was filled partially.
+[Modified] Options - Tools - Color Picking setting is discarded, (same settings located in Color Picker tool options).
+[Modified] In previous release, suppressing suspend Windows when SAI.exe is active become selectable in misc.ini(Default. OFF).
+
+2008-09-16 Ver.1.0.5c
+[Fixed] Screen resolution with multiple of 32 in full screen mode caused access violation.
+[Fixed] Starting SAI with full screen mode didn't enable menu bar.
+
+2008-09-15 Ver.1.0.5b
+[New] Select Previous View (Ctrl+Tab), Select Next View (Shift+Ctrl+Tab) function added.
+[New] Maximum navigator size settings added in floating mode. (misc.ini)
+[Fixed] Window maximized position was incorrect only when task bar placed screen top or right side.
+
+2008-09-15 Ver.1.0.5
+[New] SST compatible full screen mode supported (Shift+Tab, F11)
+(by this, settings for hiding menu bar and title bar in misc.ini was discarded.)
+[New] Flatten Image function added.
+[New] Merge Visible Layers function now don't remove hidden layers.
+[Fixed] Window maximize operation in non-primary display wasn't correct.
+[Fixed] 24bitRGB couldn't select in PNG export.
+...and some more fixes.
+
+2008-09-13 Ver.1.0.4b
+[Fixed] Hide Command Panels function didn't work with navigator window in floating mode was fixed.
+
+2008-09-13 Ver.1.0.4
+[New] Floating mode supported. (misc.ini)
+[New] Some of SST compatible functions supported (misc.ini)
+  + Navigator window in floating mode.
+  + Hide scrollbars on view.
+  + Hide Command Panels function can hide menu & title bars.
+[New & Modified] Improved layer operation,
+  + Merge Visible Layers function supported.
+  + Layer paints effect settings now can toggle show/hide.
+  + Dragging eye icons can set multiple layers show/hide.
+  + Grouping multiple layers by dragging link icons.
+  + Ctrl + eye icon click will set layerset as show/hide shortcut target. (only for layerset)
+  + Alt + eye icon click shows only selected layer.
+  + Preserve Opacity shortcut command added.
+  + Clipping Group shortcut command added.
+  + Show/Hide Layer shortcut command added.
+  + Show/Hide Marked Parent Layer Set shortcut command added.
+  + Show Current Layer Lone shortcut command added.
+  + Show Marked Parent Layer Set Lone command added.
+  + Create new selection with intersection of current selection and layer opacity supported. (Shift + Ctrl + Alt + thumbnail click)
+[Modify] Syringe source for color picking can select in tool panel.
+[New] DPI information supported in JPEG/PNG import/export.
+[New] Support transparent PNG.
+[New] Support transparent BMP (this is for programmers, switch to enable/disable in misc.ini).
+[Fixed] Some of output color was not correct in TGA format export.
+[Fixed] Selection display sometimes show noisy incorrect border.
+[Modified] Lasso & Bucket tool now twice faster than before.
+[Fixed] Change tools and fix strokes in Curve or Line tool caused access violation.
+[Fixed] Progress wasn't shown with Hide Command Panels option.
+[Fixed] Window maximize was not correct in non-primary display with two or more displays.
+...and some more fixes.
+
+2008-08-05 Ver.1.0.3b
+[Modified] Color transition with V parameter in V-HSV mode was modified.
+[Modified] Button placement for HSV mode selection was changed.
+[Fixed] Canceling HSV mode selection caused always select V-HSV.
+
+2008-08-02 Ver.1.0.3
+[New] V-HSV color mode (newly added) is set as default in Color wheel & HSV sliders.
+  + V-HSV is original mode that keep color transitions more naturally in V-value is decreased.
+  + HLS mode selection in menu was moved to new color wheel menu.
+[Fixed] Only in Windows Vista, window appearance become incorrect with side bar.
+[Fixed] Only in Windows Vista, folders in user document couldn't be bookmarked.
+[Modified] System menu is disabled by Alt+Space.
+[Modified] Drawing strokes will be completed when Curve & Line tool is changed to other tools except CP related functions.
+...and some more fixes.
+
+2008-07-25 Ver.1.0.2d
+[Fixed] Size grip for navigator always shown when navigator was hidden.
+
+2008-07-25 Ver.1.0.2c
+[Fixed] Some layer composition mode was badly saved in SAI format.
+
+2008-07-25 Ver.1.0.2b
+[Fixed] Layer composition mode Overlay, Shade, Luminosity show incorrect result.
+
+2008-07-24 Ver.1.0.2
+[New] Windows Vista supported.
+[New] Navigator panel now support resizing.
+[New] Navigator now shows current selection. (this is for reasons of resizing support)
+[Modified] Curve & Line tool is changed,
+  + Right click is changed to undo command from complete curves.
+  + Undo operation sometimes cause access violation fixed.
+  + and some more fixes.
+[New & Modified] Layer composition mode is changed.
+  + Composition mode 'Additive' is renamed to 'Luminosity'.
+  + Composition mode 'Shade' is added. (this equals Linear Burn mode in Photoshop)
+  + Composition mode 'Lumi & Shade' is added. (this equals Linear Light mode in Photoshop)
+  + Overlay result in Clipping Group was not correct fixed.
+[Modified] First setup process with administrator right is omitted (because of Vista limitation of administrator logon with applications)
+[Modified] File viewer shows My Document folder at first time.
+[Fixed] If last accessed folder was removed, File viewer couldn't show file listings.
+[Fixed] When file viewer access old version SAI file caused access violation.
+[Fixed] File viewer couldn't access correct desktop location which changed from Windows default settings.
+[Fixed] In some rare settings caused file viewer couldn't show file listings.
+[Fixed] In linework layer, tail of lines drawn by mouse become 50% pressure.
+[Fixed] Drawable range in layerset pasted to other image was limited by source image range.
+[Fixed] Image width or height is 1pixel and other side is greater than 3800pixels caused access violation.
+[Fixed] Layer texture or linework layer was partially disappeared when canvas was rotated 90 degrees.
+[Modified] Large brush response is improved in multi processor with Win2003SP1 or later (and XP-64bit, and Vista).
+(In these OS, Critical Section API behavior was changed, and these changes lose evenness for each thread,
+so we need to write 'own' even critical section functions.)
+[Fixed] Scrolling during drawings in background thread caused display incorrect result.
+[Fixed] Bristle brush (round & flat etc.) with large fiber scale drawings was incorrect.
+...and some more fixes.
+
+2008-03-03 Ver.1.0.1
+[Modified] Edit box support context menu with right click.
+[Fixed] Couldn't copy strokes in linework layer.
+[Fixed] Number added tail of layer name by linework layer rasterized.
+[Fixed] Binary Color layer was invalid with PSD export.
+[Fixed] Transform result was broken with very small image (only several pixels).
+
+2008-02-25 Ver.1.0.0
+- First production release of PaintTool SAI Ver.1.0.0.
+
+--
+SYSTEMAX / Koji Komatsu
+http://www.systemax.jp/
+
